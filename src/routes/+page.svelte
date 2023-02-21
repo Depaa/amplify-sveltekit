@@ -2,14 +2,6 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
-	
-	import { Amplify } from 'aws-amplify';
-	import awsmobile from '../aws-exports';
-	import { onMount } from 'svelte';
-
-	onMount(async () => {
-		Amplify.configure(awsmobile);
-	});
 </script>
 
 <svelte:head>
