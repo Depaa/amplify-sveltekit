@@ -1,10 +1,6 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
-
-	import { Amplify } from 'aws-amplify';
-	import awsmobile from '../aws-exports';
-	Amplify.configure(awsmobile);
 </script>
 
 <div class="app">
